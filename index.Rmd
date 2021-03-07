@@ -1,7 +1,7 @@
 ---
-title: "My Website"
+title: "Claire Congli Zhang's Academic Website"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  This is my personal academic website, where I update my CV and research projects and also host a research blog for Chinese K-12 educators.
 site: distill::distill_website
 ---
 
