@@ -1,12 +1,16 @@
 name: "Claire Congli Zhang"
+base_url: https://claireconglizhang.github.io/page/
 title: "Claire Congli Zhang's Academic Website"
 description: |
 
 output_dir: "docs"
 navbar:
   left:
-    - text: "Home"
+    - text: "CV"
       href: index.html
     - text: "About"
       href: about.html
+  right:
+    - icon: fa fa-github
+      href: https://github.com/claireconglizhang/page
 output: distill::distill_article
