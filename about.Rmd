@@ -8,7 +8,7 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Why this site
+## *Why This Site*
 
 1. A easy, fun, and informative way to share my research identity and academic notes
 
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 4. Potential contributions to the educational research field in my home country
 
 
-## Notes for building a distill website
+## *Notes for Building a Distill Website*
 
 Disclaimer: this is NOT a tutorial and don't use this if any of the following doesn't make sense to you.
 
