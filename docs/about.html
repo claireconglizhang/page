@@ -2035,6 +2035,34 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<h2 id="why-this-site">Why this site</h2>
+<ol type="1">
+<li><p>A easy, fun, and informative way to share my research identity and academic notes</p></li>
+<li><p>A way to reflect - on the practical side of my research, in particular</p></li>
+<li><p>A way to interact - with researchers, educators, and all</p></li>
+<li><p>Potential contributions to the educational research field in my home country</p></li>
+</ol>
+<h2 id="notes-for-building-a-distill-website">Notes for building a distill website</h2>
+<p>Disclaimer: this is NOT a tutorial and don’t use this if any of the following doesn’t make sense to you.</p>
+<p>Things are not easy if you want use version control on a distill website. Many ways to do it but no easy ways. After multiple attempts, I figured out these steps working for my purpose:</p>
+<ol type="1">
+<li><p>Create a new repo on GitHub, don’t initiate anything, an empty repo will do (remember to copy the URL)</p></li>
+<li><p>In RStudio IDE, create a new project, select distill blog/website (remember to check the configuration with github page), distill will create basic things you need for the web</p></li>
+<li><p>How to push your local project to the existing repo? Well, use your terminal.</p></li>
+</ol>
+<p>git init<br />
+git add .<br />
+git commit -m ‘First commit’<br />
+git remote add origin PUT THE URL HERE<br />
+git remote -v<br />
+git push origin master</p>
+<ol start="4" type="1">
+<li><p>Go to your GitHub repo to confirm whether the files are there.</p></li>
+<li><p>Go back to your RStudio IDE, under the tools-version control-set up while noticing the URL is automatically copied there. Click Ok. Restart your RStudio IDE. Git is available now.</p></li>
+<li><p>You think the Git function is working and you’re all good. No you are not. The pull and push buttons do not work.</p></li>
+</ol>
+<p>git push -u origin master</p>
+<p>YOU ARE NOW ALL SET.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
